@@ -1,0 +1,224 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Info{width: 100%;}
+
+    .Info p{
+        padding: 10px 50px;
+        text-align: left;
+        font-size: 30px;
+        color: #008ecf;
+    }
+
+.LF{
+    background-color: #070707;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+    .lenguajes{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+        .lenguajes h4{
+            margin: 3%;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            text-shadow: 0px 0px 10px white;
+        }
+
+        .lenguajes img{
+            margin: 0% 3% 3% 3%;
+            width: 90%;
+            height: 75%;
+            border: solid 4px gray;
+        }
+
+    .frameworks{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+        .frameworks h4{
+            margin: 3%;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            text-shadow: 0px 0px 10px white;
+        }
+
+        .frameworks img{
+            margin: 0% 3% 3% 3%;
+            width: 90%;
+            height: 75%;
+            border: solid 4px gray;
+            background-color: white;
+        }
+
+.librerias{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+    .librerias h4{
+        font-size: 30px;
+        text-align: center;
+        color: #008ecf;
+    }
+
+    .libIcons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .lib1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            margin-bottom: 3%; 
+        }
+
+            .lib1 img{
+                margin: 10px;
+                width: 300px;
+                height: 150px;
+            }
+
+        .lib2{
+            justify-content: center;
+            margin-bottom: 3%; 
+        }
+
+            .lib2 img{
+                margin: 10px 40px;
+                width: 300px;
+                height: 300px;
+            }
+
+        .lib3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            margin-bottom: 3%; 
+        }
+
+            .lib3 img{
+                margin: 10px;
+                width: 300px;
+                height: 150px;
+            }
+
+.BoxFace{
+    margin-top: 2.5%;
+    width: 90%;
+    background-color: #070707;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    .fb-page{border: solid 4px gray;}
+
+    .img{
+        width: 63%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img h4{
+        color: white;
+        font-size: 30px;
+        padding: 0px;
+        margin: 3%;
+        text-shadow: 0px 0px 10px white;
+        text-align: center;
+    }
+
+    .img img{
+        margin: 0px;
+        padding: 0px;
+        border: solid 4px gray;
+        width: 100%;
+        height: 100%;
+    }
+
+hr{
+    width: 95%;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    height: 2px;
+    background-color: gray;
+    color: gray;
+}
+
+.endHomeBaner{
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    margin-top: 3%;
+    height: 455px;
+}
+
+    .ImgEndHomeBaner{
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 455px;
+    }
+
+        .ImgEndHomeBaner img{
+            width: 100%;
+            height: 100%;
+            transition: all 500ms ease-out;
+        }
+
+        .hoverEndHomeBaner{
+            display: flex;
+            background: linear-gradient(to right, rgba(0, 142, 207, 0.40), rgba(207, 0, 0, 0.4));
+            position: absolute;
+            top: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            transition: all 500ms ease-out;
+        }
+
+            .hoverEndHomeBaner p{
+                color: white;
+                font-size: 250%;
+                text-shadow: 0px 0px 10px white;
+                padding-bottom: 5px;
+                border-bottom: solid 2px white;
+            }
+
+        .hoverEndHomeBaner:hover{opacity: 1;}

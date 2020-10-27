@@ -1,0 +1,203 @@
+@media all and (max-width: 1320px){
+    h2{font-size: 60px;}
+
+    .conceptFrame p{font-size: 26px;}
+
+    .FrameNew p{font-size: 24px;}
+
+    .subtitleFrame h2{font-size: 44px;}
+}
+
+@media all and (max-width: 1215px){
+    h2{font-size: 55px;}
+
+    .conceptFrame p{font-size: 25px;}
+
+    .FrameNew p{font-size: 21px;}
+
+    .subtitleFrame h2{font-size: 42px;}
+}
+
+@media all and (max-width: 1115px){
+    h2{font-size: 50px;}
+
+    .conceptFrame p{font-size: 23px;}
+
+    .FrameNew p{font-size: 19px;}
+
+    .subtitleFrame h2{font-size: 41px;}
+
+    .ImgFrame img{
+        width: 500px;
+        height: 325px;
+    }
+}
+
+@media all and (max-width: 915px){
+    h2{font-size: 45px;}
+
+    .conceptFrame p{font-size: 20px;}
+
+    .FrameNew p{font-size: 17px;}
+
+    .subtitleFrame h2{font-size: 38px;}
+
+    .ImgFrame img{
+        width: 470px;
+        height: 295px;
+    }
+}
+
+@media all and (max-width: 830px){
+    .FrameNew p{font-size: 16px;}
+}
+
+@media all and (max-width: 815px){
+    h2{font-size: 42px;}
+
+    .conceptFrame p{font-size: 19px;}
+
+    .InfoFrame{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    .FrameNew{
+        width: 90%;
+        margin: 0px;
+        height: 150px;
+    }
+
+    .subtitleFrame h2{font-size: 34px;}
+
+    .ImgFrame{margin: 2.5% 0% 2.5% 0%;}
+}
+
+@media all and (max-width: 715px){
+    h2{font-size: 40px;}
+
+    .conceptFrame p{font-size: 17px;}
+
+    .FrameNew p{font-size: 15px;}
+
+    .subtitleFrame h2{font-size: 30px;}
+}
+
+@media all and (max-width: 630px){
+    h2{font-size: 34px;}
+}
+
+@media all and (max-width: 615px){
+    h2{font-size: 32px;}
+
+    .conceptFrame p{font-size: 16px;}
+
+    .FrameNew p{font-size: 14px;}
+
+    .subtitleFrame h2{font-size: 26px;}
+
+    hr{ height: 2px;}
+}
+
+@media all and (max-width: 515px){
+    h2{font-size: 30px;}
+
+    .conceptFrame p{font-size: 15px;}
+
+    .FrameNew p{font-size: 13px;}
+
+    .subtitleFrame h2{font-size: 22px;}
+}
+
+@media all and (max-width: 472px){
+    h2{font-size: 28px;}
+}
+
+@media all and (max-width: 441px){
+    h2{font-size: 26px;}
+}
+
+@media all and (max-width: 425px){
+    .subtitleFrame h2{font-size: 19px;}
+
+    .ImgFrame img{
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media all and (max-width: 415px){
+    h2{font-size: 24px;}
+
+    .conceptFrame p{font-size: 14px;}
+
+    .FrameNew p{font-size: 12px;}
+
+    .ImgFrame img{
+        width: 390px;
+        height: 205px;
+    }
+
+    .subtitleFrame h2{font-size: 18px;}
+
+    hr{height: 1px;}
+}
+
+@media all and (max-width: 384px){
+    .FrameNew{height: 160px;}
+
+    .ImgFrame img{
+        width: 360px;
+        height: 185px;
+    }
+
+    .subtitleFrame h2{font-size: 16px;}
+}
+
+@media all and (max-width: 378px){
+    h2{font-size: 22px;}
+}
+
+@media all and (max-width: 376px){
+    .conceptFrame p{font-size: 13px;}
+}
+
+@media all and (max-width: 360px){
+    .FrameNew{height: 180px;}
+
+    .ImgFrame img{
+        width: 340px;
+        height: 165px;
+    }
+
+    .subtitleFrame h2{font-size: 16px;}
+}
+
+@media all and (max-width: 348px){
+    .conceptFrame p{font-size: 12px;}
+}
+
+@media all and (max-width: 346px){
+    h2{font-size: 20px;}
+}
+
+@media all and (max-width: 320px){
+    h2{font-size: 18px;}
+
+    .conceptFrame p{font-size: 12px;}
+
+    .FrameNew{
+        width: 100%;
+        height: 140px;
+    }
+
+        .FrameNew p{font-size: 10px;}
+
+    .ImgFrame img{
+        width: 290px;
+        height: 155px;
+    }
+
+    .subtitleFrame h2{font-size: 12px;}
+}

@@ -1,0 +1,245 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 65px;
+    margin: 3.5% 0.5% 3.5% 0.5%;
+    text-align: center;
+    color: #008ecf;
+}
+
+.Contact{
+    background-color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}   
+
+    .Info{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .Info p{
+            padding: 10px;
+            text-align: left;
+            font-size: 25px;
+            color: #008ecf;
+        }
+
+        .Info img{
+            margin: 0px;
+            display: block;
+            width: 80%;
+            height: 42%;
+            border: solid 4px gray;
+        }
+
+    .ContactForm{
+        max-width: 35%;
+        padding: 20px;
+    }
+
+        .ImgForm img{
+            width: 100%;
+            height: 40%;
+            margin-bottom: -3px;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+        }
+
+    .ContactPrograming{
+        background-color: #070707;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+    }
+
+        .Email{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+            .Email label{margin-bottom: 10px;}
+
+            .Email input{
+                outline: none;
+                font-size: 15px;
+                height: 30px;
+                box-sizing: border-box;
+                margin-bottom: 2%;
+                background-color: white;
+                border: 0px;
+            }
+
+        .About{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+            .About label{margin-bottom: 10px;}
+
+            .About input{
+                outline: none;
+                font-size: 15px;
+                height: 30px;
+                box-sizing: border-box;
+                margin-bottom: 2%;
+                background-color: white;
+                border: 0px;
+            }
+
+        .Message{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+
+            .Message textarea{
+                outline: none;
+                font-size: 15px;
+                box-sizing: border-box;
+                margin-bottom: 2%;
+                resize: none;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .Message label{margin-bottom: 10px;}
+
+            input:focus{border: 3px solid gray;}
+
+            textarea:focus{border: 3px solid gray;}
+
+        .BtnSend{
+            background-color: #0b0b0b;
+            color: white;
+            border: none;
+            border-style: none;
+            text-decoration: none;
+            font-size: 20px;
+            width: 20%;
+            padding: 12px 10px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .BtnSend:hover{
+            transition: 0.3s;
+            background-color: #131313;
+            text-shadow: 0px 0px 12px white;
+        }
+
+        .Line{
+            width: 95%;
+            margin: 0px;
+            margin-top: 2.5%;
+            margin-bottom: 2.5%;
+            height: 3px;
+            color: gray;
+            background-color: gray;
+        }
+
+    .endHomeBaner{
+        cursor: pointer;
+        padding: 0px;
+        width: 100%;
+        margin-top: 0px;
+        height: 455px;
+    }
+    
+        .ImgEndHomeBaner{
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 455px;
+        }
+    
+            .ImgEndHomeBaner img{transition: all 500ms ease-out;}
+    
+            .hoverEndHomeBaner{
+                display: flex;
+                background:linear-gradient(to right, rgba(0, 142, 207, 0.40), rgba(207, 0, 0, 0.4));
+                position: absolute;
+                top: 0;
+                opacity: 0;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+                transition: all 500ms ease-out;
+            }
+    
+                .hoverEndHomeBaner p{
+                    color: white;
+                    font-size: 250%;
+                    text-shadow: 0px 0px 10px white;
+                    padding-bottom: 5px;
+                    border-bottom: solid 2px white;
+                }
+    
+            .hoverEndHomeBaner:hover{opacity: 1;}
+
+    .SlideEndHomeBaner{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+        .SlideEndHomeBaner ul{
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            animation: cambio 20s infinite alternate linear;
+            transition: ease-in;
+        }
+
+            .SlideEndHomeBaner li{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                min-width: 100%;
+                min-height: 100%;
+            }
+
+                .SlideEndHomeBaner img{
+                    width: 100%;
+                    height: 100%;
+                }
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}

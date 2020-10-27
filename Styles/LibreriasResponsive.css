@@ -1,0 +1,208 @@
+@media all and (max-width: 1320px){
+    h2{font-size: 60px;}
+
+    .conceptLib p{font-size: 26px;}
+
+    .Lib1 img, .Lib3 img{
+        width: 280px;
+        height: 140px;
+    }
+
+    .Lib2 img{
+        width: 380px;
+        height: 380px;
+    }
+
+    .subtitleLib h2{font-size: 44px;}
+}
+
+@media all and (max-width: 1215px){
+    h2{font-size: 55px;}
+
+    .conceptLib p{font-size: 25px;}
+
+    .Lib1 img, .Lib3 img{
+        width: 260px;
+        height: 130px;
+    }
+
+    .Lib2 img{
+        width: 360px;
+        height: 360px;
+    }
+    
+    .subtitleLib h2{font-size: 42px;}
+}
+
+@media all and (max-width: 1115px){
+    h2{font-size: 50px;}
+
+    .conceptLib p{font-size: 23px;}
+
+    .Lib1 img, .Lib3 img{
+        width: 240px;
+        height: 120px;
+    }
+
+    .Lib2 img{
+        width: 340px;
+        height: 340px;
+    }
+    
+    .subtitleLib h2{font-size: 41px;}
+}
+
+@media all and (max-width: 915px){
+    h2{font-size: 45px;}
+
+    .conceptLib p{font-size: 20px;}
+
+    .Lib1 img, .Lib3 img{
+        width: 210px;
+        height: 105px;
+    }
+
+    .Lib2 img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .subtitleLib h2{font-size: 38px;}
+}
+
+@media all and (max-width: 830px){
+    .Lib1 img, .Lib3 img{
+        width: 180px;
+        height: 90px;
+    }
+
+    .Lib2 img{
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media all and (max-width: 815px){
+    h2{font-size: 42px;}
+
+    .conceptLib p{font-size: 19px;}
+
+    .LibLibrary{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        width: 100%;
+    }
+
+        .Lib1, .Lib2, .Lib3{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .Lib2{background-color: #eeeeee;}
+
+        .Lib1 img:nth-child(2), .Lib3 img:nth-child(2){display: none;}
+
+        .Lib1 img{
+            width: 40%;
+            height: 30%;
+        }
+
+        .Lib2 img{
+            width: 50%;
+            height: 50%;
+        }
+
+        .Lib3 img{
+            width: 40%;
+            height: 30%;
+        }
+    
+    .subtitleLib h2{font-size: 34px;}
+}
+
+@media all and (max-width: 715px){
+    h2{font-size: 40px;}
+
+    .conceptLib p{font-size: 17px;}
+
+    .subtitleLib h2{font-size: 30px;}
+}
+
+@media all and (max-width: 630px){
+    h2{font-size: 34px;}
+}
+
+@media all and (max-width: 615px){
+    h2{font-size: 32px;}
+
+    .conceptLib p{font-size: 16px;}
+
+    .subtitleLib h2{font-size: 26px;}
+
+    hr{height: 2px;}
+}
+
+@media all and (max-width: 515px){
+    h2{font-size: 30px;}
+
+    .conceptLib p{font-size: 15px;}  
+
+    .subtitleLib h2{font-size: 22px;}
+}
+
+@media all and (max-width: 472px){
+    h2{font-size: 28px;}
+}
+
+@media all and (max-width: 441px){
+    h2{font-size: 26px;}
+}
+
+@media all and (max-width: 425px){
+    .subtitleLib h2{font-size: 19px;}   
+}
+
+@media all and (max-width: 415px){
+    h2{font-size: 24px;}
+
+    .conceptLib p{font-size: 14px;}
+
+    .subtitleLib h2{font-size: 18px;}
+
+    hr{height: 1px;}
+}
+
+@media all and (max-width: 384px){
+    .subtitleLib h2{font-size: 16px;}
+}
+
+@media all and (max-width: 378px){
+    h2{font-size: 22px;}
+}
+
+@media all and (max-width: 376px){
+    .conceptLib p{font-size: 13px;}
+}
+
+@media all and (max-width: 360px){
+    .subtitleLib h2{font-size: 16px;}
+}
+
+@media all and (max-width: 348px){
+    .conceptLib p{font-size: 12px;}
+}
+
+@media all and (max-width: 346px){
+    h2{font-size: 20px;}
+}
+
+@media all and (max-width: 320px){
+    h2{font-size: 18px;}
+
+    .conceptLib p{font-size: 12px;}
+
+    .subtitleLib h2{font-size: 12px;}
+}

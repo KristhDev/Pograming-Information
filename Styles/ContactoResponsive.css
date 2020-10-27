@@ -1,0 +1,220 @@
+@media all and (max-width: 1320px){
+    h2{font-size: 60px;}
+
+    .Info p{font-size: 24px;}
+
+    .BtnSend{font-size: 19px;}
+
+    .endHomeBaner{height: 425px;}
+
+        .ImgEndHomeBaner{height: 425px;}
+}
+
+@media all and (max-width: 1250px){
+    .Info p{font-size: 23px;}
+
+    .endHomeBaner{height: 415px;}
+
+        .ImgEndHomeBaner{height: 415px;}
+}
+
+@media all and (max-width: 1215px){
+    h2{font-size: 55px;}
+
+    .BtnSend{
+        font-size: 18px;
+        padding: 11px 9px;
+    }
+
+    .endHomeBaner{height: 405px;}
+
+        .ImgEndHomeBaner{height: 405px;}
+}
+
+@media all and (max-width: 1115px){
+    h2{font-size: 50px;}
+
+    .Info p{font-size: 22px;}
+
+    .BtnSend{font-size: 17px;}
+
+    .endHomeBaner{height: 385px;}
+
+        .ImgEndHomeBaner{height: 385px;}
+
+        .hoverEndHomeBaner p{font-size: 235%;}
+}
+
+@media all and (max-width: 1015px){
+    .Info p{font-size: 26px;}
+
+    .Contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .Info{width: 85%;}
+
+        .ContactForm{max-width: 85%;}
+    
+    .BtnSend{
+        font-size: 16px;
+        padding: 10px 8px;
+    }
+
+    .Line{height: 2px;}
+
+    .endHomeBaner{height: 365px;}
+
+        .ImgEndHomeBaner{height: 365px;}
+
+        .hoverEndHomeBaner p{font-size: 215%;}
+}
+
+@media all and (max-width: 915px){
+    h2{font-size: 45px;}
+
+    .Info p{font-size: 25px;}
+
+        .InfoSobreMi p{font-size: 21px;}
+
+    .BtnSend{font-size: 15px;}
+
+    .endHomeBaner{height: 345px;}
+
+        .ImgEndHomeBaner{height: 345px;}
+
+        .hoverEndHomeBaner p{font-size: 195%;}
+}
+
+@media all and (max-width: 830px){
+    .endHomeBaner{height: 325px;}
+
+        .ImgEndHomeBaner{height: 325px;}
+
+        .hoverEndHomeBaner p{font-size: 185%;}
+}
+
+@media all and (max-width: 815px){
+    h2{font-size: 42px;}
+
+    .Info p{font-size: 23px;}
+
+    label{
+        font-size: 15px;
+        margin-bottom: 9px;
+    }
+
+    input{font-size: 14px;}
+
+    textarea{font-size: 14px;}
+
+    .BtnSend{font-size: 14px;}
+
+    .endHomeBaner{display: none;}
+}
+
+@media all and (max-width: 715px){
+    h2{font-size: 40px;}
+
+    .Info p{font-size: 22px;}
+
+    .BtnSend{font-size: 13px;}
+}
+
+@media all and (max-width: 630px){
+    h2{font-size: 34px;}
+
+    .Info p{font-size: 21px;}
+}
+
+@media all and (max-width: 615px){
+    h2{font-size: 32px;}
+
+    .Info p{font-size: 20px;}
+
+    label{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    input{font-size: 13px;}
+
+    textarea{font-size: 13px;}
+
+    .BtnSend{font-size: 12px;}
+}
+
+@media all and (max-width: 515px){
+    h2{font-size: 30px;}
+
+    .Info p{font-size: 19px;}
+
+    .Line{height: 1px;}
+}
+
+@media all and (max-width: 472px){
+    h2{font-size: 28px;}
+
+    .Info p{font-size: 18px;}
+}
+
+@media all and (max-width: 441px){
+    h2{font-size: 26px;}
+}
+
+@media all and (max-width: 425px){
+    .Info p{font-size: 17px;}
+}
+
+@media all and (max-width: 415px){
+    h2{font-size: 24px;}
+
+    .Info p{font-size: 15px;}
+
+    label{
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    input{font-size: 12px;}
+
+    textarea{font-size: 12px;}
+}
+
+@media all and (max-width: 384px){
+    .Info p{font-size: 14px;}
+}
+
+@media all and (max-width: 378px){
+    h2{font-size: 22px;}
+
+    .Info p{font-size: 13px;}
+}
+
+@media all and (max-width: 360px){
+    .Info p{font-size: 12px;}
+}
+
+@media all and (max-width: 346px){
+    h2{font-size: 20px;}
+
+    .Info p{font-size: 11px;}
+}
+
+@media all and (max-width: 320px){
+    h2{font-size: 18px;}
+
+    .Info p{font-size: 10px;}
+
+    label{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    input{font-size: 11px;}
+
+    textarea{font-size: 11px;}
+
+    .line{height: 1px;}
+}

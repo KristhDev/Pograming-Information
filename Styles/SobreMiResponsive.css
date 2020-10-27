@@ -1,0 +1,282 @@
+@media all and (max-width: 1320px){
+    h2{font-size: 60px;}
+
+    .Info p{font-size: 29px;}
+
+    .endHomeBaner{height: 425px;}
+
+        .ImgEndHomeBaner{height: 425px;}
+
+    .Image a{font-size: 37px;}
+}
+
+@media all and (max-width: 1250px){
+    .Info p{font-size: 28px;}
+
+    .contImgLeng{height: 320px;}
+
+    .InfoSobreMi{height: 320px;}
+
+    .endHomeBaner{height: 415px;}
+
+        .ImgEndHomeBaner{height: 415px;}
+    
+    .Image a{font-size: 36px;}
+}
+
+@media all and (max-width: 1215px){
+    h2{font-size: 55px;}
+
+    .contImgLeng{height: 310px;}
+
+    .InfoSobreMi{height: 310px;}
+
+    .endHomeBaner{height: 405px;}
+
+        .ImgEndHomeBaner{height: 405px;}
+
+    .Image a{font-size: 35px;}
+}
+
+@media all and (max-width: 1115px){
+    h2{font-size: 50px;}
+
+    .Info p{font-size: 27px;}
+
+    .contImgLeng{height: 280px;}
+
+    .InfoSobreMi{height: 280px;}
+
+    .endHomeBaner{height: 385px;}
+
+        .ImgEndHomeBaner{height: 385px;}
+
+        .hoverEndHomeBaner p{font-size: 235%;}
+    
+    .Image a{font-size: 34px;}
+}
+
+@media all and (max-width: 1015px){
+    .Info p{font-size: 26px;}
+
+    .contImgLeng{height: 250px;}
+
+    .InfoSobreMi{height: 250px;}
+
+    .endHomeBaner{height: 365px;}
+
+        .ImgEndHomeBaner{height: 365px;}
+
+        .hoverEndHomeBaner p{font-size: 215%;}
+
+    .Image a{font-size: 33px;}
+
+    .Image img{border: solid 6px white;}
+}
+
+@media all and (max-width: 915px){
+    h2{font-size: 45px;}
+
+    .Info p{font-size: 25px;}
+
+    .contImgLeng{height: 220px;}
+
+    .InfoSobreMi{height: 220px;}
+
+        .InfoSobreMi p{font-size: 21px;}
+
+    .GaleryProgramer figure{width: 25%;}
+
+    .endHomeBaner{height: 345px;}
+
+        .ImgEndHomeBaner{height: 345px;}
+
+        .hoverEndHomeBaner p{font-size: 195%;}
+
+    .Image a{font-size: 32px;}
+}
+
+@media all and (max-width: 830px){
+    .contImgLeng{height: 200px;}
+
+    .InfoSobreMi{height: 200px;}
+
+        .InfoSobreMi p{font-size: 19px;}
+
+    .endHomeBaner{height: 325px;}
+
+        .ImgEndHomeBaner{height: 325px;}
+}
+
+@media all and (max-width: 815px){
+    h2{font-size: 42px;}
+
+    .Info p{font-size: 23px;}
+
+    .ObjetiveSite{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contImgLeng{
+        width: 80%;
+        height: 40%;
+        margin-bottom: 2%;
+    }
+
+    .InfoSobreMi{
+        width: 80%;
+        height: 100%;
+    }
+
+        .InfoSobreMi p{font-size: 19px;}
+
+    hr{margin-bottom: 3%;}
+    
+    .endHomeBaner{display: none;}
+
+    .Image a{font-size: 31px;}
+}
+
+@media all and (max-width: 715px){
+    h2{font-size: 40px;}
+
+    .Info p{font-size: 22px;}
+
+    .InfoSobreMi p{font-size: 18px;}
+
+    .Image a{font-size: 30px;}
+
+    .Image img{border: solid 5px white;}
+}
+
+@media all and (max-width: 630px){
+    h2{font-size: 34px;}
+
+    .Info p{font-size: 21px;}
+
+    .InfoSobreMi p{font-size: 19px;}
+}
+
+@media all and (max-width: 615px){
+    h2{font-size: 32px;}
+
+    .Info p{font-size: 20px;}
+
+    .InfoSobreMi p{font-size: 18px;}
+
+    .GaleryProgramer figure{width: 45%;}
+
+    .Image a{font-size: 29px;}
+}
+
+@media all and (max-width: 520px){
+    .Image{height: 50%;}
+}
+
+@media all and (max-width: 515px){
+    h2{font-size: 30px;}
+
+    .Info p{font-size: 19px;}
+
+    .InfoSobreMi p{font-size: 17px;}
+
+    .Image a{font-size: 29px;}
+
+    .Image img{border: solid 4px white;}
+}
+
+@media all and (max-width: 472px){
+    h2{font-size: 28px;}
+
+    .Info p{font-size: 18px;}
+
+    .InfoSobreMi p{font-size: 16px;}
+
+    .Image{height: 45%;}
+
+    .Image a{font-size: 28px;}
+}
+
+@media all and (max-width: 441px){
+    h2{font-size: 26px;}
+
+    .Image{height: 40%;}
+
+    .Image a{font-size: 27px;}
+}
+
+@media all and (max-width: 425px){
+    .Info p{font-size: 17px;}
+
+    .InfoSobreMi p{font-size: 15px;}
+
+    .GaleryProgramer figure{height: 100px;}
+
+    .Image a{font-size: 26px;}
+}
+
+@media all and (max-width: 415px){
+    h2{font-size: 24px;}
+
+    .Info p{font-size: 15px;}
+
+    .InfoSobreMi p{font-size: 13px;}
+
+    .Image a{font-size: 25px;}
+}
+
+@media all and (max-width: 384px){
+    .Info p{font-size: 14px;}
+
+    .InfoSobreMi p{font-size: 12px;}
+
+    .Image{height: 35%;}
+
+    .Image a{font-size: 24px;}
+}
+
+@media all and (max-width: 378px){
+    h2{font-size: 22px;}
+
+    .Info p{font-size: 13px;}
+
+    .InfoSobreMi p{font-size: 11px;}
+    
+    .Image a{font-size: 23px;}
+}
+
+@media all and (max-width: 360px){
+    .Info p{font-size: 12px;}
+
+    .InfoSobreMi p{font-size: 10px;}
+    
+    .Image{height: 30%;}
+
+    .Image a{font-size: 22px;}
+}
+
+@media all and (max-width: 346px){
+    h2{font-size: 20px;}
+
+    .Info p{font-size: 11px;}
+
+    .InfoSobreMi p{font-size: 9px;}
+
+    .Image a{font-size: 21px;}
+}
+
+@media all and (max-width: 320px){
+    h2{font-size: 18px;}
+
+    .Info p{font-size: 10px;}
+
+    .InfoSobreMi p{font-size: 8px;}
+
+    .Image{height: 25%;}
+
+    .Image a{font-size: 20px;}
+
+    .Image img{border: solid 3px white;}
+}

@@ -1,0 +1,60 @@
+.groupCorrect input:focus{border: 3px solid #12ee12;}
+
+.groupCorrect textarea:focus{border: 3px solid #12ee12;}
+
+.groupIncorrect input{border: 3px solid red;}
+
+.groupIncorrect label{color: red;}
+
+.groupIncorrect textarea{border: 3px solid red;}
+
+.salida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+    .msgError{
+        width: 90%;
+        height: 100%;
+        color: darkred;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgba(255, 93, 93, 0.8);
+        margin: 0px;
+        margin-top: 5%;
+        padding: 2.5% 0% 2.5% 0%;
+        border: 2px solid red;
+    }
+
+    .msgSuccess{
+        width: 90%;
+        height: 100%;
+        color: #125f12;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgba(98, 255, 93, 0.8);
+        margin: 0px;
+        margin-top: 5%;
+        padding: 2.5% 0% 2.5% 0%;
+        border: 2px solid #12ee12;
+    }
+
+@media all and (max-width: 615px){
+    .msgSuccess, .msgError{font-size: 15px;}
+
+    .groupMsgError{font-size: 13px;}
+}
+
+@media all and (max-width: 415px){
+    .msgSuccess, .msgError{font-size: 13px;}
+
+    .groupMsgError{font-size: 11px;}
+}
+
+@media all and (max-width: 320px){
+    .msgSuccess, .msgError{font-size: 10px;}
+
+    .groupMsgError{font-size: 9px;}
+}

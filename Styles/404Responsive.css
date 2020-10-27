@@ -1,0 +1,143 @@
+@media all and (max-width: 1320px){
+    .error h2{font-size: 60px;}
+
+    .errorMessage p{font-size: 24px;}
+}
+
+@media all and (max-width: 1250px){
+    .errorMessage p{font-size: 23px;}
+}
+
+@media all and (max-width: 1215px){
+    .error h2{font-size: 55px;}
+
+    img{height: 420px;}
+}
+
+@media all and (max-width: 1115px){
+    .error h2{font-size: 50px;}
+
+    .errorMessage p{font-size: 22px;}
+
+    img{height: 400px;}
+}
+
+@media all and (max-width: 1024px){
+    img{height: 360px;}
+}
+
+@media all and (max-width: 1015px){
+    .errorMessage p{font-size: 21px;}
+
+    .Line{height: 2px;}
+}
+
+@media all and (max-width: 915px){
+    .error h2{font-size: 45px;}
+
+    .errorMessage p{font-size: 20px;}
+
+    img{height: 340px;}
+}
+
+@media all and (max-width: 815px){
+    .error h2{font-size: 42px;}
+
+    .errorMessage p{font-size: 19px;}
+
+    img{height: 300px;}
+}
+
+@media all and (max-width: 715px){
+    .error h2{font-size: 40px;}
+
+    .errorMessage p{font-size: 18px;}
+
+    img{height: 250px;}
+}
+
+@media all and (max-width: 630px){
+    .error h2{font-size: 34px;}
+
+    .errorMessage p{font-size: 17px;}
+
+    img{height: 230px;}
+}
+
+@media all and (max-width: 615px){
+    .error h2{font-size: 32px;}
+
+    .errorMessage p{font-size: 16px;}
+}
+
+@media all and (max-width: 515px){
+    .error h2{font-size: 30px;}
+
+    .errorMessage p{font-size: 15px;}
+
+    .Line{height: 1px;}
+}
+
+@media all and (max-width: 492px){
+    img{height: 210px;}
+}
+
+@media all and (max-width: 472px){
+    .error h2{font-size: 28px;}
+
+    .errorMessage p{font-size: 14px;}
+}
+
+@media all and (max-width: 462px){
+    img{height: 200px;}
+}
+
+@media all and (max-width: 441px){
+    .error h2{font-size: 26px;}
+}
+
+@media all and (max-width: 425px){
+    .errorMessage p{font-size: 13px;}
+}
+
+@media all and (max-width: 415px){
+    .error h2{font-size: 24px;}
+
+    .errorMessage p{font-size: 12px;}
+
+    img{height: 190px;}
+}
+
+@media all and (max-width: 384px){
+    .errorMessage p{font-size: 11px;}
+
+    img{height: 170px;}
+}
+
+@media all and (max-width: 378px){
+    .error h2{font-size: 22px;}
+
+    .errorMessage p{font-size: 10px;}
+}
+
+@media all and (max-width: 360px){
+    .errorMessage p{font-size: 9px;}
+
+    img{height: 150px;}
+}
+
+@media all and (max-width: 346px){
+    .error h2{font-size: 20px;}
+
+    .errorMessage p{font-size: 8px;}
+
+    img{height: 130px;}
+}
+
+@media all and (max-width: 320px){
+    .error h2{font-size: 18px;}
+
+    .errorMessage p{font-size: 7px;}
+
+    img{height: 110px;}
+}

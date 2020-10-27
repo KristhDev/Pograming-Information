@@ -1,0 +1,595 @@
+@media all and (max-width: 1210px){
+    .Info p{font-size: 25px;}
+
+    .lenguajes h4{font-size: 25px;}
+
+    .frameworks h4{font-size: 25px;}
+
+    .librerias h4{font-size: 25px;}
+
+        .lib1 img{
+            width: 290px;
+            height: 145px;
+        }
+
+        .lib2 img{
+            width: 290px;
+            height: 290px;
+        }
+
+        .lib3 img{
+            width: 290px;
+            height: 145px;
+        }
+
+    .img h4{font-size: 25px;}
+
+        .endHomeBaner{height: 420px;}
+    
+            .ImgEndHomeBaner{height: 420px;}
+
+            .hoverEndHomeBaner p{font-size: 235%;}
+}
+
+@media all and (max-width: 1110px){
+    .Info p{font-size: 22px;}
+
+    .lenguajes h4{font-size: 22px;}
+
+    .frameworks h4{font-size: 22px;}
+
+    .librerias h4{font-size: 22px;}
+
+        .lib1 img{
+            width: 270px;
+            height: 135px;
+        }
+
+        .lib2 img{
+            width: 240px;
+            height: 240px;
+        }
+
+        .lib3 img{
+            width: 270px;
+            height: 135px;
+        }
+
+    .img h4{font-size: 22px;}
+
+        .endHomeBaner{height: 400px;}
+    
+            .ImgEndHomeBaner{height: 400px;}
+
+            .hoverEndHomeBaner p{font-size: 225%;}
+}
+
+@media all and (max-width: 1024px){
+    .Info p{font-size: 20px;}
+
+    .lenguajes h4{font-size: 21px;}
+
+    .frameworks h4{font-size: 21px;}
+
+    .librerias h4{font-size: 21px;}
+
+        .lib1 img{
+            width: 240px;
+            height: 120px;
+        }
+
+        .lib2 img{
+            width: 220px;
+            height: 220px;
+        }
+
+        .lib3 img{
+            width: 240px;
+            height: 120px;
+        }
+
+    .img h4{font-size: 21px;}
+
+        .BoxFace{
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+            .img{
+                margin-top: 3%;
+                width: 75%;
+            }
+
+    .endHomeBaner{height: 360px;}
+
+        .ImgEndHomeBaner{height: 360px;}
+
+        .hoverEndHomeBaner p{font-size: 215%;}
+}
+
+@media all and (max-width: 910px){
+    .Info p{font-size: 19px;}
+
+    .lenguajes h4{font-size: 21px;}
+
+    .frameworks h4{font-size: 21px;}
+
+    .librerias h4{font-size: 21px;}
+
+        .lib1 img{
+            width: 220px;
+            height: 110px;
+        }
+
+        .lib2 img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .lib3 img{
+            width: 220px;
+            height: 110px;
+        }
+
+    .img h4{font-size: 21px;}
+
+    .endHomeBaner{height: 340px;}
+
+        .ImgEndHomeBaner{height: 340px;}
+
+        .hoverEndHomeBaner p{font-size: 185%;}
+}
+
+@media all and (max-width: 840px){
+    .Info p{font-size: 18px;}
+
+    .lenguajes h4{font-size: 20px;}
+
+    .frameworks h4{font-size: 20px;}
+
+    .librerias h4{font-size: 20px;}
+
+        .lib1 img{
+            width: 200px;
+            height: 100px;
+        }
+
+        .lib2 img{
+            width: 180px;
+            height: 180px;
+        }
+
+        .lib3 img{
+            width: 200px;
+            height: 100px;
+        }
+
+    .img h4{font-size: 20px;}
+
+    .endHomeBaner{
+        margin-top: 10px;
+        height: 320px;
+    }
+
+        .ImgEndHomeBaner{height: 320px;}
+
+        .hoverEndHomeBaner p{font-size: 165%;}
+}
+
+@media all and (max-width: 800px){
+    .Info p{font-size: 17px;}
+
+    .lenguajes h4{font-size: 19px;}
+
+    .frameworks h4{font-size: 19px;}
+
+    .librerias h4{font-size: 19px;}
+
+        .lib1 img{
+            width: 180px;
+            height: 90px;
+        }
+
+        .lib2 img{
+            width: 160px;
+            height: 160px;
+        }
+
+        .lib3 img{
+            width: 180px;
+            height: 90px;
+        }
+
+    .img h4{font-size: 19px;}
+
+    .endHomeBaner{height: 300px;}
+
+        .ImgEndHomeBaner{height: 300px;}
+
+        .hoverEndHomeBaner{display: none;}
+}
+
+@media all and (max-width: 752px){
+    .endHomeBaner{height: 280px;}
+
+        .ImgEndHomeBaner{height: 280px;}    
+}
+
+@media all and (max-width: 700px){
+    .Info p{font-size: 16px;}
+    
+    .lenguajes h4{font-size: 18px;}
+
+    .frameworks h4{font-size: 18px;}
+
+    .librerias h4{font-size: 18px;}
+
+        .lib1 img{
+            width: 170px;
+            height: 85px;
+        }
+
+        .lib2 img{
+            width: 160px;
+            height: 160px;
+        }
+
+        .lib3 img{
+            width: 170px;
+            height: 85px;
+        }
+
+    .img h4{font-size: 18px;}
+
+    .endHomeBaner{height: 250px;}
+
+        .ImgEndHomeBaner{height: 250px;}
+}
+
+@media all and (max-width: 653px){
+    .Info p{font-size: 15px;}
+    
+    .lenguajes h4{font-size: 17px;}
+
+    .frameworks h4{font-size: 17px;}
+
+    .librerias h4{font-size: 17px;}
+
+        .lib1 img{
+            width: 160px;
+            height: 80px;
+        }
+
+        .lib2 img{
+            width: 160px;
+            height: 160px;
+        }
+
+        .lib3 img{
+            width: 160px;
+            height: 80px;
+        }
+
+    .img h4{font-size: 17px;}
+
+    .endHomeBaner{height: 230px;}
+
+        .ImgEndHomeBaner{height: 230px;}
+}
+
+@media all and (max-width: 626px){
+    .lenguajes h4{font-size: 15px;}
+
+    .frameworks h4{font-size: 15px;}
+}
+
+@media all and (max-width: 609px){
+    .Info p{font-size: 14px;}
+    
+    .LF{flex-direction: column;}
+
+    .lenguajes{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lenguajes h4{font-size: 20px;}
+
+    .frameworks{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frameworks h4{
+        margin: 0% 3% 3% 3%;
+        font-size: 20px;
+    }
+
+    .endHomeBaner{height: 230px;}
+
+        .ImgEndHomeBaner{height: 230px;}
+}
+
+@media all and (max-width: 565px){
+    .Info p{font-size: 13px;}
+
+    .lenguajes h4{font-size: 19px;}
+
+    .lenguajes img{width: 90%;}
+
+    .frameworks h4{font-size: 19px;}
+
+    .frameworks img{width: 90%;}
+
+    .librerias h4{font-size: 19px;}
+
+    .libIcons{flex-direction: column;}
+
+        .lib1{align-items: center;}
+
+        .lib1 img:nth-child(1){display: none;}
+
+        .lib1 img{
+            width: 65%;
+            height: 150px;
+        }
+
+        .lib2 img{
+            width: 160px;
+            height: 160px;
+        }
+
+        .lib3{align-items: center;}
+
+        .lib3 img:nth-child(2){display: none;}
+
+        .lib3 img{
+            width: 65%;
+            height: 150px;
+        }
+
+    .img h4{font-size: 19px;}
+
+    .endHomeBaner{height: 230px;}
+
+        .ImgEndHomeBaner{height: 230px;}
+}
+
+@media all and (max-width: 536px){
+    .Info p{font-size: 12px;}
+
+    .librerias h4{font-size: 19px;}
+
+        .lib1 img{
+            width: 65%;
+            height: 150px;
+        }
+
+        .lib2 img{
+            width: 160px;
+            height: 160px;
+        }
+
+        .lib3 img{
+            width: 65%;
+            height: 150px;
+        }
+
+    .endHomeBaner{height: 230px;}
+
+        .ImgEndHomeBaner{height: 230px;}
+}
+
+@media all and (max-width: 492px){
+    .Info p{font-size: 11px;}
+
+    .lib1 img{
+        width: 65%;
+        height: 140px;
+    }
+
+    .lib2 img{
+        width: 160px;
+        height: 160px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 140px;
+    }
+
+    .endHomeBaner{height: 210px;}
+
+        .ImgEndHomeBaner{height: 210px;}
+}
+
+@media all and (max-width: 462px){
+    .Info p{font-size: 11px;}
+
+    .lib1 img{
+        width: 65%;
+        height: 130px;
+    }
+
+    .lib2 img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 130px;
+    }
+
+    .endHomeBaner{height: 200px;}
+
+        .ImgEndHomeBaner{height: 200px;}
+}
+
+@media all and (max-width: 418px){
+    .Info p{font-size: 9px;}
+
+    .lenguajes h4{font-size: 17px;}
+
+    .frameworks h4{font-size: 17px;}
+
+    .librerias h4{font-size: 17px;}
+
+    .lib1 img{
+        width: 65%;
+        height: 120px;
+    }
+
+    .lib2 img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 120px;
+    }
+
+    .Face{display: none;}
+
+    .img{
+        margin: 0px;
+        width: 90%;
+    }
+
+        .img h4{font-size: 17px;}
+
+    .endHomeBaner{height: 190px;}
+
+        .ImgEndHomeBaner{height: 190px;}
+}
+
+@media all and (max-width: 390px){
+    .lenguajes h4{
+        font-size: 16px;
+    }
+
+    .frameworks h4{
+        font-size: 16px;
+    }
+
+    .librerias h4{
+        font-size: 16px;
+    }
+
+    .lib1 img{
+        width: 65%;
+        height: 100px;
+    }
+
+    .lib2 img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 100px;
+    }
+
+    .img h4{font-size: 16px;}
+
+    .endHomeBaner{height: 170px;}
+
+        .ImgEndHomeBaner{height: 170px;}
+}
+
+@media all and (max-width: 360px){
+    .lenguajes h4{font-size: 15px;}
+
+    .frameworks h4{font-size: 15px;}
+
+    .librerias h4{font-size: 15px;}
+
+    .lib1 img{
+        width: 65%;
+        height: 80px;
+    }
+
+    .lib2 img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 80px;
+    }
+
+    .img h4{font-size: 15px;}
+
+    .endHomeBaner{height: 150px;}
+
+        .ImgEndHomeBaner{height: 150px;}
+}
+
+@media all and (max-width: 344px){
+    .lenguajes h4{font-size: 14px;}
+
+    .frameworks h4{font-size: 14px;}
+
+    .librerias h4{font-size: 14px;}
+
+    .lib1 img{
+        width: 65%;
+        height: 60px;
+    }
+
+    .lib2 img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 60px;
+    }
+
+    .img h4{font-size: 14px;}
+
+    .endHomeBaner{height: 130px;}
+
+        .ImgEndHomeBaner{height: 130px;}
+}
+
+@media all and (max-width: 320px){
+    .lenguajes h4{font-size: 13px;}
+
+    .frameworks h4{font-size: 13px;}
+
+    .librerias h4{font-size: 13px;}
+
+    .lib1 img{
+        width: 65%;
+        height: 50px;
+    }
+
+    .lib2 img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .lib3 img{
+        width: 65%;
+        height: 50px;
+    }
+
+    .img h4{font-size: 13px;}
+
+    .endHomeBaner{height: 110px;}
+
+        .ImgEndHomeBaner{height: 110px;}
+}

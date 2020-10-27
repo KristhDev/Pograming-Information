@@ -1,0 +1,174 @@
+@media all and (max-width: 1210px){
+    .SubFooSubTitle{font-size: 13px;}
+
+        .ListLinks a{font-size: 13px;}
+    
+    footer{height: 55px;}
+
+    .social{left: 96.8%;}
+
+    .social img{
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media all and (max-width: 1110px){
+    .SubFooSubTitle{font-size: 12px;}
+
+        .ListLinks a{font-size: 11px;}
+    
+    footer{height: 50px;}
+
+    .social a{font-size: 19px;}
+
+    .social img{
+        width: 26px;
+        height: 26px;
+    }
+
+    .social{left: 96.6%;}
+}
+
+@media all and (max-width: 1024px){
+    .SubFooSubTitle{font-size: 11px;}
+
+        .ListLinks a{font-size: 10px;}
+    
+    footer{height: 45px;}
+
+    .social img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .social{left: 96.4%;}
+}
+
+@media all and (max-width: 910px){
+    .SubFooSubTitle{font-size: 11px;}
+    
+    .ListLinks{margin: 0px 25px 25px 25px;}
+
+        .ListLinks a{font-size: 10px;}
+    
+    footer{height: 40px;}
+
+    footer p{font-size: 10px;}
+
+    .social a{font-size: 18px;}
+
+    .social img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .social{left: 96.2%;}
+}
+
+@media all and (max-width: 840px){
+    .SubFooSubTitle{font-size: 11px;}
+    
+    .ListLinks{margin: 0px 22px 22px 22px;}
+
+        .ListLinks a{font-size: 10px;}
+    
+    footer{height: 35px;}
+
+    footer p{font-size: 9px;}
+
+    .social img{
+        width: 23px;
+        height: 23px;
+    }
+
+    .social{left: 96.1%;}
+}
+
+@media all and (max-width: 800px){
+    .SubFooter{display: none;}
+    
+    footer{height: 35px;}
+
+    footer p{font-size: 9px;}
+
+    .social a{font-size: 17px;}
+
+    .social img{
+        width: 22px;
+        height: 22px;
+    }
+
+    .social{left: 96%;}
+}
+
+@media all and (max-width: 653px){
+    footer{height: 30px;}
+
+    footer p{font-size: 8px;}
+
+    .social a{font-size: 16px;}
+
+    .social img{
+        width: 22px;
+        height: 22px;
+    }
+
+    .social{left: 95.2%;}
+}
+
+@media all and (max-width: 565px){
+    footer p{font-size: 7px;}
+
+    .social img{
+        width: 21px;
+        height: 21px;
+    }
+
+    .social{left: 94.7%;}
+}
+
+@media all and (max-width: 462px){
+    footer{height: 25px;}
+
+    footer p{font-size: 6px;}
+
+    .social a{font-size: 15px;}
+
+    .social img{
+        width: 19px;
+        height: 19px;
+    }
+
+    .social{left: 94%;}
+}
+
+@media all and (max-width: 390px){
+    footer{height: 20px;}
+
+    footer p{font-size: 5px;}
+
+    .social a{font-size: 14px;}
+
+    .social img{
+        width: 17px;
+        height: 17px;
+    }
+
+    .social{left: 93.6%;}
+}
+
+@media all and (max-width: 320px){
+    footer{height: 17px;}
+
+    footer p{font-size: 4px;}
+
+    .social a{font-size: 13px;}
+
+    .social img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .social{left: 93.4%;}
+}

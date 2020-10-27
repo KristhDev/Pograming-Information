@@ -1,0 +1,214 @@
+@media all and (max-width: 1320px){
+    .LFL h2{font-size: 88px;}
+
+    .LFL img{
+        width: 590px;
+        height: 295px;
+    }
+
+    .LFLInfo p{font-size: 22px;}
+
+    .laborales{width: 540px;}
+
+    .lab{font-size: 19px;}
+
+    .laborales p{font-size: 19px;}
+
+    .BtnMore{font-size: 18px;}
+}
+
+@media all and (max-width: 1215px){
+    .LFL h2{font-size: 86px;}
+
+    .LFL img{
+        width: 570px;
+        height: 285px;
+    }
+
+    .LFLInfo p{font-size: 20px;}
+
+    .laborales{width: 480px;}
+
+        .lab{font-size: 18px;}
+
+        .laborales p{font-size: 18px;}
+}
+
+@media all and (max-width: 1115px){
+    .LFL h2{font-size: 84px;}
+
+    .LFL img{
+        width: 550px;
+        height: 275px;
+    }
+
+    .LFLInfo p{font-size: 18px;}
+
+    .laborales{width: 440px;}
+
+        .lab{font-size: 17px;}
+    
+    .laborales p{font-size: 17px;}
+
+    .BtnMore{font-size: 17px;}
+}
+
+@media all and (max-width: 1015px){
+    .LFL h2{font-size: 82px;}
+
+    .LFL img{
+        width: 530px;
+        height: 265px;
+    }
+
+    .LFLInfo p{font-size: 17px;}
+
+    .ContLFLMoreInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .Col1{width: 100%;}
+
+        .Col2{width: 97%;}
+
+        .Col1{margin-bottom: 2.5%;}
+
+        .laborales{
+            min-height: 0px;
+            width: 90%;
+        }
+ 
+    .lab{font-size: 16px;}
+
+    .laborales p{font-size: 16px;}
+}
+
+@media all and (max-width: 915px){
+    .LFL h2{font-size: 80px;}
+
+    .LFL img{
+        width: 510px;
+        height: 255px;
+    }
+
+    .LFLInfo p{font-size: 16px;}
+
+    .lab{font-size: 15px;}
+
+    .laborales p{font-size: 16px;}
+
+    .BtnMore{font-size: 16px;}
+}
+
+@media all and (max-width: 815px){
+    .LFL h2{font-size: 78px;}
+
+    .LFL img{
+        width: 490px;
+        height: 245px;
+    }
+
+    .LFLInfo p{font-size: 15px;}
+
+    .lab{font-size: 14px;}
+
+    .laborales p{font-size: 14px;}
+}
+
+@media all and (max-width: 715px){
+    .LFL h2{font-size: 76px;}
+
+    .LFL img{
+        width: 470px;
+        height: 235px;
+    }
+
+    .LFLInfo p{font-size: 14px;}
+
+    .lab{font-size: 13px;}
+
+    .laborales p{font-size: 13px;}
+
+    .BtnMore{font-size: 15px;}
+}
+
+@media all and (max-width: 615px){
+    .LFL h2{font-size: 74px;}
+
+    .LFL img{
+        width: 440px;
+        height: 220px;
+    }
+
+    .LFLInfo p{font-size: 13px;}
+
+    .lab{font-size: 12px;}
+
+    .laborales p{font-size: 12px;}
+}
+
+@media all and (max-width: 515px){
+    .LFL h2{font-size: 65px;}
+
+    .LFL img{
+        width: 410px;
+        height: 205px;
+    }
+
+    .LFLInfo p{font-size: 12px;}
+
+    .lab{font-size: 11px;}
+
+    .laborales p{font-size: 11px;}
+
+    .BtnMore{
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 415px){
+    .LFL h2{font-size: 50px;}
+
+    .LFL img{
+        width: 360px;
+        height: 180px;
+    }
+
+    .LFLInfo p{
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .lab{font-size: 10px;}
+
+    .laborales p{font-size: 10px;}
+
+    .BtnMore{
+        font-size: 11px;
+        padding: 9px;
+    }
+}
+
+@media all and (max-width: 320px){
+    .LFL h2{font-size: 35px;}
+
+    .LFL img{
+        width: 260px;
+        height: 130px;
+    }
+
+    .LFLInfo p{font-size: 10px;}
+
+    .lab{font-size: 9px;}
+
+    .laborales p{font-size: 9px;}
+
+    .BtnMore{
+        font-size: 8px;
+        padding: 6px;
+    }
+
+    .lineLFL{height: 1.5px;}
+}

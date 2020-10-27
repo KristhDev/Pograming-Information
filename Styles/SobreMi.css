@@ -1,0 +1,266 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 65px;
+    margin: 2.5% 0.5% 2.5% 0.5%;
+    text-align: center;
+    color: #008ecf;
+}
+
+.Info{width: 100%;}
+    .Info p{
+        margin-top: 0px;
+        padding: 0px 50px;
+        text-align: left;
+        font-size: 30px;
+        color: #008ecf;
+    }
+
+.ObjetiveSite{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+    .contImgLeng{
+        width: 47%;
+        height: 360px;
+    }
+
+        .contImgLeng img{
+            width: 100%;
+            height: 100%;
+        }
+
+    .InfoSobreMi{
+        background-color: #070707;
+        width: 47%;
+        height: 360px;
+    }
+
+        .InfoSobreMi p{
+            color: white;
+            padding: 0px 20px 0px 20px;
+            font-size: 23px;
+            text-shadow: 0px 0px 10px white;
+        }
+
+    .GaleryProgramer{
+        width: 100%;
+        background-color: #eeeeee;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .GaleryProgramer figure{
+            width: 20%;
+            height: 155px;
+            margin: 2%;
+            cursor: pointer;
+            border: solid 3px gray;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .GaleryProgramer figure a{
+            position: relative;
+            overflow: hidden;
+            margin: 0px;
+            width: 100%;
+            height: 100%;
+            display: block;
+            display: flex;
+            transition: all 0.3s;
+        }
+
+        .GaleryProgramer figure a:hover{
+            transition: all 0.3s;
+            transform: scale(1.5);
+        }
+
+        .GaleryProgramer figure a img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .galleryHover{
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: all 0.3s;
+        }
+
+        .galleryHover:hover{
+            transition: all 0.3s;
+            opacity: 1;
+        }
+
+    .Modal{
+        position: absolute;
+        top: -100%;
+    }
+
+    .Modal:target{
+        z-index: 1;
+        transition: all 0.5s;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }   
+    
+        .Image{
+            width: 100%;
+            height: 55%;
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Image a{
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+            margin: 0px 2%;
+        }
+
+        .Image a:nth-child(2){
+            margin: 0px;
+            height: 100%;
+            flex-shrink: 2;
+        }
+
+        .Image img{
+            width: 600px;
+            height: 100%;
+            max-width: 100%;
+            border: solid 7px white;
+            box-sizing: border-box;
+        }
+
+        .BtnClose{
+            display: block;
+            background-color: white;
+            width: 25px;
+            height: 25px;
+            margin: 1.5% auto;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            padding: 0.5%;
+            border-radius: 50%;
+            line-height: 25px;
+        }
+
+    hr{
+        width: 95%;
+        margin-top: 3%;
+        margin-bottom: 0px;
+        height: 2px;
+        background-color: gray;
+        color: gray;
+    }
+
+    .endHomeBaner{
+        cursor: pointer;
+        padding: 0px;
+        width: 100%;
+        margin-top: 3%;
+        height: 455px;
+    }
+    
+        .ImgEndHomeBaner{
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 455px;
+        }
+    
+            .ImgEndHomeBaner img{transition: all 500ms ease-out;}
+    
+            .hoverEndHomeBaner{
+                display: flex;
+                background:linear-gradient(to right, rgba(0, 142, 207, 0.40), rgba(207, 0, 0, 0.4));
+                position: absolute;
+                top: 0;
+                opacity: 0;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+                transition: all 500ms ease-out;
+            }
+    
+                .hoverEndHomeBaner p{
+                    color: white;
+                    font-size: 250%;
+                    text-shadow: 0px 0px 10px white;
+                    padding-bottom: 5px;
+                    border-bottom: solid 2px white;
+                }
+    
+            .hoverEndHomeBaner:hover{opacity: 1;}
+
+    .SlideEndHomeBaner{
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+        .SlideEndHomeBaner ul{
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            animation: cambio 20s infinite alternate linear;
+            transition: ease-in;
+        }
+
+            .SlideEndHomeBaner li{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                min-width: 100%;
+                min-height: 100%;
+            }
+
+                .SlideEndHomeBaner img{
+                    width: 100%;
+                    height: 100%;
+                }
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}

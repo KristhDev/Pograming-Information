@@ -1,0 +1,199 @@
+.BgGo{background-color: rgba(173, 216, 230,0.5);}
+
+.BgSca{background-color: rgba(170, 84, 84, 0.5);}
+
+.BgRu{background-color: rgba(163, 45, 45, 0.5);}
+
+.BgTs{background-color: rgba(63, 127, 199, 0.5);}
+
+.BgKo{background: linear-gradient(to right, rgba(63, 127, 199, 0.5), rgba(83, 63, 199, 0.5));}
+
+.BgOb{background-color: rgba(206, 113, 59, 0.5);}
+
+.BgJs{background-color: rgba(206, 196, 59, 0.5);}
+
+.BgSw{background: linear-gradient(to right, rgba(206, 59, 59, 0.5),rgba(206, 113, 59, 0.5));}
+
+.BgPhp{background-color: rgba(170, 146, 209, 0.5);}
+
+.BgJava{background-color: rgba(158, 58, 58, 0.5);}
+
+.BgVue{background-color: rgba(37, 160, 109, 0.5);}
+
+.BgAng{background-color: rgba(167, 39, 39, 0.5);}
+
+.BgDj{background-color: rgba(14, 58, 20, 0.5);}
+
+.BgSp{background-color: rgba(102, 199, 63, 0.5);}
+
+.BgNj{background: rgba(142, 190, 123, 0.5);}
+
+.BgRoR{background-color: rgba(206, 59, 59, 0.5);}
+
+.BgFl{background-color: rgba(119, 119, 119, 0.5);}
+
+.BgASP{background: rgba(170, 146, 209, 0.5);}
+
+.BgLa{background-color: rgba(211, 96, 43, 0.5);}
+
+.BgDru{background-color: rgba(93, 149, 223, 0.5);}
+
+.BgRea{background-color: rgba(160, 214, 221, 0.5);}
+
+.BgjQ{background-color: rgba(39, 58, 167, 0.5);}
+
+.BgPy{background: linear-gradient(to right, rgba(102, 199, 63, 0.5), rgba(197, 199, 63, 0.5) )}
+
+.BgRe{background-color: rgba(49, 49, 49, 0.7);}
+
+.BgMo{background: rgba(79, 197, 152, 0.5);}
+
+.LFL{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BgLFL{background-color: #eeeeee;}
+
+    .LFL h2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 90px;
+    }
+
+    .LFL img{
+        margin-bottom: 3%;
+        width: 600px;
+        height: 300px;
+    }
+
+    .LFLInfo{
+        width: 95%;
+        margin-top: 10px;
+        background-color: black;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+    }
+
+        .LFLInfo p{
+            margin: 0px;
+            color: white;
+            text-shadow: 0px 0px 12px white;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .LengMore{
+            max-width: 95%;
+            background: url("../Imagenes/blur-close-up-code-computer-546819-1080x675.jpg");
+            background-size: cover;
+            width: 100%;
+            margin: 0;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+        }
+        
+        .FrameMore{
+            max-width: 95%;
+            background: url("../Imagenes/1493938270-programacion-istock.jpg");
+            background-size: cover;
+            width: 100%;
+            margin: 0;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .LibMore{
+            max-width: 95%;
+            background: url("../Imagenes/desarrollador-1288x724.jpg");
+            background-size: cover;
+            width: 100%;
+            margin: 0;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+        }
+
+            .LFLMoreInfo{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+
+            .ContLFLMoreInfo{
+                padding: 25px;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: flex-start;
+            }
+
+                .Col1, .Col2{width: 47%;}
+
+                .Col1{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                    .laborales{
+                        margin: 0px;
+                        min-height: 315px;
+                        background-color: #f0f0f0;
+                        color: #008ecf;
+                        width: 100%;
+                    }
+
+                        .lab{
+                            height: 10%;
+                            margin: 0px;
+                            font-size: 20px;
+                            background-color:#dddcdc;
+                        }
+
+                        .laborales p{padding: 0px 10px 0px 10px;}
+
+                    .LFLVid{
+                        height: 0;
+                        overflow: hidden;
+                        position: relative;
+                        padding-bottom: 56.25%;
+                        padding-top: 0px;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                        .LFLVid iframe,
+                        .LFLVid object,
+                        .LFLVid embed,
+                        .LFLVid video{ 
+                            height: 100%;
+                            left: 0;
+                            position: absolute;
+                            top:0;
+                            width: 100%;
+                        }
+                
+            .BtnMore{
+                cursor: pointer;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                text-decoration: none;
+                color: white;
+                background-color:#008ecf;
+                padding: 12px;
+            }
+
+            .BtnMore:hover{
+                background-color: #0472a5;
+                transition: 0.3s;
+                text-shadow: 0px 0px 12px white;
+            }
+
+.lineLFL{
+    width: 95%;
+    margin: 0px;
+    margin-bottom: 15px;
+    height: 3px;
+}
